@@ -1,0 +1,43 @@
+package jsug.app.account;
+
+import com.sun.xml.internal.ws.api.ha.StickyFeature;
+import jsug.domain.validation.Confirm;
+import jsug.domain.validation.UnusedEmail;
+import lombok.Data;
+import org.hibernate.validator.constraints.Email;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+import java.time.LocalDate;
+
+/**
+ * Created by yuma on 2016/10/19.
+ */
+@Data
+@Confirm(field = "password")
+public class AccountForm {
+    @Email
+    @Size(min = 1, max = 100)
+    @NotNull
+    @UnusedEmail
+    private String email;
+    @Size(min = 6)
+    @NotNull
+    private String password;
+    @NotNull
+    private String confirmPassword;
+    @Size(min = 1, max = 40)
+    @NotNull
+    private String name;
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+    @NotNull
+    private LocalDate birthDay;
+    @NotNull
+    @Pattern(regexp = "[0-9]{7}")
+    private String zip;
+    @Size(min = 1, max = 100)
+    @NotNull
+    private String address;
+}
