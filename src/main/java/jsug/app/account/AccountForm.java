@@ -10,6 +10,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
 import java.time.LocalDate;
 
 /**
@@ -17,7 +18,7 @@ import java.time.LocalDate;
  */
 @Data
 @Confirm(field = "password")
-public class AccountForm {
+public class AccountForm implements Serializable {
     @Email
     @Size(min = 1, max = 100)
     @NotNull
