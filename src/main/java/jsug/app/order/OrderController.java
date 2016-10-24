@@ -28,7 +28,7 @@ public class OrderController {
     @Autowired
     Cart cart;
 
-    @RequestMapping(value = "confirm", method = RequestMethod.GET)
+    @RequestMapping(params = "confirm", method = RequestMethod.GET)
     String confirm(@AuthenticationPrincipal ShopUserDetails userDetails, Model model) {
         model.addAttribute("orderLines", cart.getOrderLines());
         if (cart.isEmpty()) {
