@@ -1,4 +1,4 @@
-package jsug.domain.service.order;
+package jsug.service.order;
 
 import jsug.model.Account;
 import jsug.model.Cart;

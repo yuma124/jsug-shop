@@ -1,4 +1,4 @@
-package jsug.domain.service.userdetails;
+package jsug.service.userdetails;
 
 import jsug.domain.TestConfig;
 import jsug.model.Account;

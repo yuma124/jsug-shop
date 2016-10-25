@@ -1,4 +1,4 @@
-package jsug.domain.service.order;
+package jsug.service.order;
 
 public class EmptyCartOrderException extends RuntimeException {
     public EmptyCartOrderException(String message) {

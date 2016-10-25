@@ -1,4 +1,4 @@
-package jsug.domain.service.order;
+package jsug.service.order;
 
 public class InvalidCartOrderException extends RuntimeException {
     public InvalidCartOrderException(String message) {

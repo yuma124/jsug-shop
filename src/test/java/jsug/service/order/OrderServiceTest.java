@@ -1,4 +1,4 @@
-package jsug.domain.service.order;
+package jsug.service.order;
 
 import jsug.domain.TestConfig;
 import jsug.domain.model.*;

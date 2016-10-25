@@ -1,4 +1,4 @@
-package jsug.domain.service.goods;
+package jsug.service.goods;
 
 
 public class GoodsNotFoundException extends RuntimeException {

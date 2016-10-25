@@ -1,6 +1,6 @@
 package jsug.domain.validation;
 
-import jsug.domain.service.account.AccountService;
+import jsug.service.account.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

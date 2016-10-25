@@ -1,4 +1,4 @@
-package jsug.domain.service.userdetails;
+package jsug.service.userdetails;
 
 import jsug.repository.account.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;

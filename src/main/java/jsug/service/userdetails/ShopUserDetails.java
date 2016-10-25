@@ -1,4 +1,4 @@
-package jsug.domain.service.userdetails;
+package jsug.service.userdetails;
 
 import jsug.model.Account;
 import org.springframework.security.core.GrantedAuthority;

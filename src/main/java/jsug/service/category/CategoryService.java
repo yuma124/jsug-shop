@@ -1,4 +1,4 @@
-package jsug.domain.service.category;
+package jsug.service.category;
 
 import jsug.model.Category;
 import jsug.repository.category.CategoryRepository;
