@@ -1,4 +1,4 @@
-package jsug.app.goods;
+package jsug.controller.goods;
 
 import jsug.domain.model.Cart;
 import jsug.domain.model.Category;

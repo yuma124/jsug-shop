@@ -1,4 +1,4 @@
-package jsug.app.goods;
+package jsug.controller.goods;
 
 import lombok.Data;
 

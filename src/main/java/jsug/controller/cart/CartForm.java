@@ -1,4 +1,4 @@
-package jsug.app.cart;
+package jsug.controller.cart;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.NotEmpty;

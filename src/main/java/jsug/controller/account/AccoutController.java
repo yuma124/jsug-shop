@@ -1,4 +1,4 @@
-package jsug.app.account;
+package jsug.controller.account;
 
 import jsug.domain.model.Account;
 import jsug.domain.service.account.AccountService;

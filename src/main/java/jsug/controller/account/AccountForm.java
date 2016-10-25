@@ -1,6 +1,5 @@
-package jsug.app.account;
+package jsug.controller.account;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 import jsug.domain.validation.Confirm;
 import jsug.domain.validation.UnusedEmail;
 import lombok.Data;

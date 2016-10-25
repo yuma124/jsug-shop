@@ -1,4 +1,4 @@
-package jsug.app.login;
+package jsug.controller.login;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

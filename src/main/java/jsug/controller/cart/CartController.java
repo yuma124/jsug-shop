@@ -1,4 +1,4 @@
-package jsug.app.cart;
+package jsug.controller.cart;
 
 import jsug.domain.model.Cart;
 import org.springframework.beans.factory.annotation.Autowired;
