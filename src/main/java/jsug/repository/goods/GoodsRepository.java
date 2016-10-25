@@ -2,7 +2,7 @@ package jsug.repository.goods;
 
 import jsug.model.Category;
 import jsug.model.Goods;
-import jsug.repository.SqlFinder;
+import jsug.component.support.SqlFinder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

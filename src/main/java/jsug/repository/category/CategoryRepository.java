@@ -1,7 +1,7 @@
 package jsug.repository.category;
 
 import jsug.model.Category;
-import jsug.repository.SqlFinder;
+import jsug.component.support.SqlFinder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;

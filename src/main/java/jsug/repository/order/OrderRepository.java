@@ -1,7 +1,7 @@
 package jsug.repository.order;
 
 import jsug.model.Order;
-import jsug.repository.SqlFinder;
+import jsug.component.support.SqlFinder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
