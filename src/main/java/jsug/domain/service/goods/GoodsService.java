@@ -1,6 +1,6 @@
 package jsug.domain.service.goods;
 
-import jsug.domain.model.Goods;
+import jsug.model.Goods;
 import jsug.domain.repository.goods.GoodsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

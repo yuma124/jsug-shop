@@ -1,6 +1,6 @@
 package jsug.domain.repository.account;
 
-import jsug.domain.model.Account;
+import jsug.model.Account;
 import jsug.domain.repository.SqlFinder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

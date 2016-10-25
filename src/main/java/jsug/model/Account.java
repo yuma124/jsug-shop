@@ -1,4 +1,4 @@
-package jsug.domain.model;
+package jsug.model;
 
 import lombok.Builder;
 import lombok.Data;

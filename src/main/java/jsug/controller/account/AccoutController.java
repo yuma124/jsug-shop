@@ -1,6 +1,6 @@
 package jsug.controller.account;
 
-import jsug.domain.model.Account;
+import jsug.model.Account;
 import jsug.domain.service.account.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

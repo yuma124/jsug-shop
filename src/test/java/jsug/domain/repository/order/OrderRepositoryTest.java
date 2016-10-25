@@ -1,9 +1,9 @@
 package jsug.domain.repository.order;
 
-import jsug.domain.model.Goods;
-import jsug.domain.model.Order;
-import jsug.domain.model.OrderLine;
-import jsug.domain.model.OrderLines;
+import jsug.model.Goods;
+import jsug.model.Order;
+import jsug.model.OrderLine;
+import jsug.model.OrderLines;
 import jsug.domain.TestConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;

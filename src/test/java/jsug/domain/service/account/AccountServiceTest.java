@@ -1,7 +1,7 @@
 package jsug.domain.service.account;
 
 import jsug.domain.TestConfig;
-import jsug.domain.model.Account;
+import jsug.model.Account;
 import jsug.domain.repository.account.AccountRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;

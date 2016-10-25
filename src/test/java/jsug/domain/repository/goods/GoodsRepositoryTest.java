@@ -1,6 +1,6 @@
 package jsug.domain.repository.goods;
 
-import jsug.domain.model.Goods;
+import jsug.model.Goods;
 import jsug.domain.TestConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;

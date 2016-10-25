@@ -1,6 +1,6 @@
 package jsug.domain.service.category;
 
-import jsug.domain.model.Category;
+import jsug.model.Category;
 import jsug.domain.repository.category.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

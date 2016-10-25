@@ -1,9 +1,9 @@
 package jsug.domain.service.order;
 
-import jsug.domain.model.Account;
-import jsug.domain.model.Cart;
-import jsug.domain.model.Order;
-import jsug.domain.model.OrderLines;
+import jsug.model.Account;
+import jsug.model.Cart;
+import jsug.model.Order;
+import jsug.model.OrderLines;
 import jsug.domain.repository.order.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

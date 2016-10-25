@@ -1,9 +1,9 @@
 package jsug.controller.goods;
 
-import jsug.domain.model.Cart;
-import jsug.domain.model.Category;
-import jsug.domain.model.Goods;
-import jsug.domain.model.OrderLine;
+import jsug.model.Cart;
+import jsug.model.Category;
+import jsug.model.Goods;
+import jsug.model.OrderLine;
 import jsug.domain.service.category.CategoryService;
 import jsug.domain.service.goods.GoodsNotFoundException;
 import jsug.domain.service.goods.GoodsService;

@@ -1,7 +1,7 @@
 package jsug.controller.order;
 
-import jsug.domain.model.Cart;
-import jsug.domain.model.Order;
+import jsug.model.Cart;
+import jsug.model.Order;
 import jsug.domain.service.order.EmptyCartOrderException;
 import jsug.domain.service.order.InvalidCartOrderException;
 import jsug.domain.service.order.OrderService;

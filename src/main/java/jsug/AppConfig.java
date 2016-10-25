@@ -1,6 +1,6 @@
 package jsug;
 
-import jsug.domain.model.Cart;
+import jsug.model.Cart;
 import net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
