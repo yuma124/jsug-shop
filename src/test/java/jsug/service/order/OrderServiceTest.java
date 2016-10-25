@@ -1,7 +1,6 @@
 package jsug.service.order;
 
 import jsug.domain.TestConfig;
-import jsug.domain.model.*;
 import jsug.model.*;
 import org.junit.Rule;
 import org.junit.Test;
@@ -13,13 +12,12 @@ import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.context.jdbc.SqlConfig;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-
 import java.time.LocalDate;
 import java.util.Collections;
 import java.util.UUID;
 
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
