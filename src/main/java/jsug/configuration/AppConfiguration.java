@@ -1,4 +1,4 @@
-package jsug;
+package jsug.configuration;
 
 import jsug.model.Cart;
 import net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy;
@@ -12,7 +12,7 @@ import org.springframework.web.context.WebApplicationContext;
 import javax.sql.DataSource;
 
 @Configuration
-public class AppConfig {
+public class AppConfiguration {
     @Autowired
     DataSourceProperties dataSourceProperties;
     DataSource dataSource;
