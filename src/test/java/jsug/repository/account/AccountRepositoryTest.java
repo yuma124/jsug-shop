@@ -1,4 +1,4 @@
-package jsug.domain.repository.account;
+package jsug.repository.account;
 
 import jsug.model.Account;
 import jsug.domain.TestConfig;

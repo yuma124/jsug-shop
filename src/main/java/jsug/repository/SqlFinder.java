@@ -1,4 +1,4 @@
-package jsug.domain.repository;
+package jsug.repository;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.ClassPathResource;

@@ -1,8 +1,8 @@
-package jsug.domain.repository.goods;
+package jsug.repository.goods;
 
 import jsug.model.Category;
 import jsug.model.Goods;
-import jsug.domain.repository.SqlFinder;
+import jsug.repository.SqlFinder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

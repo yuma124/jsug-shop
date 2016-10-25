@@ -1,4 +1,4 @@
-package jsug.domain.repository.goods;
+package jsug.repository.goods;
 
 import jsug.model.Goods;
 import jsug.domain.TestConfig;

@@ -1,7 +1,7 @@
 package jsug.domain.service.account;
 
 import jsug.model.Account;
-import jsug.domain.repository.account.AccountRepository;
+import jsug.repository.account.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

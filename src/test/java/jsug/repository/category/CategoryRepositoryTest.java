@@ -1,4 +1,4 @@
-package jsug.domain.repository.category;
+package jsug.repository.category;
 
 import jsug.model.Category;
 import jsug.domain.TestConfig;

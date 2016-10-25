@@ -4,7 +4,7 @@ import jsug.model.Account;
 import jsug.model.Cart;
 import jsug.model.Order;
 import jsug.model.OrderLines;
-import jsug.domain.repository.order.OrderRepository;
+import jsug.repository.order.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

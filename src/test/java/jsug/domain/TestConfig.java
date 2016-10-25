@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 @Configuration
 @EnableTransactionManagement
 @ComponentScan({
-        "jsug.domain.repository",
+        "jsug.repository",
         "jsug.domain.service"})
 public class TestConfig {
     @Bean

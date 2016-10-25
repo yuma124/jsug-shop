@@ -1,4 +1,4 @@
-package jsug.domain.repository.order;
+package jsug.repository.order;
 
 import jsug.model.Goods;
 import jsug.model.Order;
