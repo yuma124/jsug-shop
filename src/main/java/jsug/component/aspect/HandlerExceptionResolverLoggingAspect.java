@@ -1,4 +1,4 @@
-package jsug.infra.logging;
+package jsug.component.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
