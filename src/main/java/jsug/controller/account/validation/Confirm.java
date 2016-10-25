@@ -1,4 +1,4 @@
-package jsug.domain.validation;
+package jsug.controller.account.validation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
@@ -18,7 +18,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Target({TYPE, ANNOTATION_TYPE})
 @Retention(RUNTIME)
 public @interface Confirm {
-    String message() default "{jsug.domain.validation.Confirm.message}";
+    String message() default "{Confirm.message}";
 
     Class<?>[] groups() default {};
 

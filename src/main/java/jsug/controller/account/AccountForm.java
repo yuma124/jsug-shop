@@ -1,7 +1,7 @@
 package jsug.controller.account;
 
-import jsug.domain.validation.Confirm;
-import jsug.domain.validation.UnusedEmail;
+import jsug.controller.account.validation.Confirm;
+import jsug.controller.account.validation.UnusedEmail;
 import lombok.Data;
 import org.hibernate.validator.constraints.Email;
 import org.springframework.format.annotation.DateTimeFormat;

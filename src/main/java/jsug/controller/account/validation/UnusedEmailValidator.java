@@ -1,4 +1,4 @@
-package jsug.domain.validation;
+package jsug.controller.account.validation;
 
 import jsug.service.account.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;

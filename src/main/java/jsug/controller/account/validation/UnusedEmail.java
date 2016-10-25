@@ -1,4 +1,4 @@
-package jsug.domain.validation;
+package jsug.controller.account.validation;
 
 
 import javax.validation.Constraint;
